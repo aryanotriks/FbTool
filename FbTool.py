@@ -47,9 +47,9 @@ logo = """
 \033[1;96m (_______)_) (_)( ) (_)_) (_)(_) (_)   (_)  (_) (_)
 \033[1;97m                /(                                 
 \033[1;94m               (__)                  
- \033[37;1m[\033[41;1m FACEBOOK ACCOUNT CLONING \033[00;1m\033[37;1m ]\n
+ \033[37;1m[\033[41;1m NEW FACEBOOK TOOL \033[00;1m\033[37;1m ]\n
  \033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya
- \033[32;1mVersion \033[37;1m: \033[33;1m1.0
+ \033[32;1mVersion \033[37;1m: \033[33;1m1.1
 """
 
 # titik #
@@ -114,7 +114,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('reset')
 		print logo
-		print('\033[1;91m[☆] \033[1;92mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
+		print('\033[1;91m[☆] \033[1;92mLOGIN WITH FACEBOOK \033[1;91m[☆]')
 		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\033[1;96mEmail\033[1;97m \033[1;91m:\033[1;92m ')
 		pwd = getpass.getpass('\033[1;91m[+] \033[1;36mPassword \033[1;91m:\033[1;92m ')
 		tik()
